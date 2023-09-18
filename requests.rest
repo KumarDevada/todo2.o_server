@@ -1,0 +1,47 @@
+GET http://localhost:3000/todos
+
+# ###
+
+# POST http://localhost:3000/todo/new
+# Content-Type: application/json
+
+# {
+#     "text": "Practice in Leetcode"
+# }
+
+###
+DELETE http://localhost:3000/todo/delete/64b68846b728c9d9c2c7e569
+
+###
+PUT http://localhost:3000/todo/complete/64b688e5b728c9d9c2c7e56c
+
+###
+POST http://localhost:3000/users/new
+Content-Type: application/json
+
+{
+    "username": "kumar",
+    "password": "KumarTodo2.o"
+}
+
+###
+GET http://localhost:3000/users/64e385c271f4d569c5b7641a/todos
+
+
+###
+POST http://localhost:3000/users/64e385c271f4d569c5b7641a/todos/new
+Content-Type: application/json
+
+{
+    "text": "keep smiling"
+}
+
+###
+DELETE http://localhost:3000/users/64e385c271f4d569c5b7641a/todos/delete/64e38aa59f917d125980e20e
+
+
+###
+GET http://localhost:3000/users/64e385c271f4d569c5b7641a/todos/complete/64e38e2abcbb0f771c382e13
+
+###
+GET http://localhost:3000/users/kumardevada123@gmail.com

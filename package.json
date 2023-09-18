@@ -1,0 +1,18 @@
+{
+  "name": "mern-to-do-api",
+  "version": "1.0.0",
+  "description": "this is a basic mern app which tracks and add new tasks also known as to do app.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "npm i"
+  },
+  "author": "kumardevada",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.4",
+    "nodemon": "^3.0.1"
+  }
+}

@@ -1,0 +1,3 @@
+Hello world.
+This text file is used to demonstrate AJAX.
+lets get started.
